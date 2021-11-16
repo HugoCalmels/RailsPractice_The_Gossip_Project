@@ -1,24 +1,23 @@
-# README
+# Bienvenue sur The Gossip Project !
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Exercice THP sur les migrations et les models.
 
-Things you may want to cover:
+Au menu : 
+- générer une seed grace à faker
+- relations 1 to N 
+- relations N to N
+- class_name
+- polymorphism
 
-* Ruby version
+## Pour remplir la base de données 
 
-* System dependencies
+- $ bundle install 
+- $ rails db:create 
+- $ rails db:migrate
+- $ rails db:seed
 
-* Configuration
+## Gems utilisées : 
 
-* Database creation
+- faker
+- table_print
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
